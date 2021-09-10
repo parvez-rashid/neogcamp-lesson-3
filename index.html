@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Component library</title>
 </head>
+
 <body>
     <h1>Parvez's component library</h1>
-    <p>I'm attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+    <p>I'm attending neog.camp and I want to make a library which would make all my projects look good and consistent.
+    </p>
 
     <hr>
 
@@ -29,14 +32,16 @@
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
-    <div class="container">This is going to be a fluid container. It will go full width of the page with some margin.</div>
+    <div class="container">This is going to be a fluid container. It will go full width of the page with some margin.
+    </div>
     <h3>centered container</h3>
-    <div class="container container-center">This is a centered container. It will go till a given width and center the content.</div>
+    <div class="container container-center">This is a centered container. It will go till a given width and center the
+        content.</div>
 
     <hr>
 
     <h2>@links</h2>
-    
+
     <a class="link primary-link" href="/">Primary link</a>
     <a class="link secondary-link" href="/">Secondary link</a>
 
@@ -73,7 +78,7 @@
 
     <h2>@nav</h2>
 
-    <p>Navigation is located on the top of the page and is used to get to different pages.</p> 
+    <p>Navigation is located on the top of the page and is used to get to different pages.</p>
     <nav class="navigation container">
         <div class="nav-brand">theBrandName</div>
         <ul class="list-non-bullet nav-pills">
@@ -100,20 +105,21 @@
     <hr>
 
     <h2>@section</h2>
-    <p>A section is used to separate parts of pages. In marketing websites, one would've seen a header followed by sections of features, team, pricing, contact info etc.</p>
-
-    <h3>@normal section</h3>
-    <section>
-        <h1>heading inside section</h1>
-        <p>Text defining this section and many more things</p>
-        <button>Primary Button</button>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have a white background Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum at odio eveniet obcaecati. Vel sapiente ratione facere velit? Officiis repellendus dolore minima delectus et ducimus nihil vero modi amet recusandae. Sequi inventore libero dolore.</p>
+            <button style="background-color: var(--primary-color)">Primary Button</button>
+        </div>
     </section>
 
     <h3>@an off-white section</h3>
-    <section id="off-white">
-        <h1>inside off-white section</h1>
-        <p>text defining this section and many more things!</p>
-        <button>Primary button</button>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off-white section</h1>
+            <p>This will have a gray background Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo excepturi qui at veritatis. Consectetur, possimus tempore eius nihil nam voluptatem vero modi atque in at, autem dicta reprehenderit nesciunt, laboriosam odio asperiores est recusandae.</p>
+            <button>Primary button</button>
+        </div>
     </section>
 
     <hr>
@@ -130,4 +136,5 @@
 
 
 </body>
+
 </html>
