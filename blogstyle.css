@@ -1,0 +1,14 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: justify;
+}
+
+.container {
+    font-size: 1.2em;
+    width: 60vw;
+    margin: auto;
+    line-height: 2rem;
+}
