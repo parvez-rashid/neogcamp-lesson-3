@@ -31,17 +31,21 @@ hr {
 
 /* links */
 .link {
+    display: inline-block;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 0.3rem 0rem;
 }
 
 .primary-link {
+    display: inline-block;
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
 }
 
 .secondary-link {
+    display: inline-block;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
